@@ -34,11 +34,5 @@ app.post('/api/notes', (req, res) => {
     });
 });
 
-
-
-// app.get('/api/notes', (req, res) => res.json(data));
-
-
-
 // GET * should return the index.html file. place last
 app.listen(PORT, () => console.log(`App listening on PORT ${PORT}`));
